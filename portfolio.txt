@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Bootstrap Scrollspy</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+  
+  </head>
+  <body data-spy="scroll" data-target="#myScroolspy">
+     <div class="container">
+       <div class="row">
+        <nav class="col-sm-4" id="myScrollspy" >
+          <ul class="nav nav-pills nav-stacked">
+      <li class="active">
+        <a  href="#A"> Introduction   </a>
+      </li>
+      <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">About my self<span class="caret"></span></a>
+      <ul class="dropdown-menu">
+        <li><a href="#B2"> hobby </a> </li>
+        <li><a href="#B1"> Family details </a> </li>
+        </li>
+       </ul>      
+      
+       
+     
+     
+      </ul>
+        </nav>
+       
+
+
+       <h2> Portfolio </h2>
+    <div class="col-sm-8">
+     <div id="A">
+    <img src="ab.jpeg" alt="">
+    <p>
+      Name:- <b> Abhishek</b> 
+    </p>
+     </div>
+    <div id="B2">
+      <p> My hobby:- <b>Cooking</b> </p>
+      <p> Contact-number:- 9897505085 <br> blood-group:- O+ve</p>
+    <div id="B1">
+     <p>Father's-name:- <b> Mahavir singh</b> <br>
+       Mother's-name:-<b> Basundhara</b><br>
+       Address:-<b> Miyawala chowk</b>         
+      </p>
+    </div>
+    </div>
+     
+
+
+
+
+    </div>
+     </div>
+  </body>
+</html>
